@@ -16,6 +16,11 @@ import {
 } from "react-icons/vsc"
 import { FaGitAlt, FaTwitter, FaDribbble } from "react-icons/fa"
 import {MdGroup} from "react-icons/md"
+import PROJECT_IMG_1 from "../assets/images/image1.png"
+import PROJECT_IMG_2 from "../assets/images/image2.png"
+import PROJECT_IMG_3 from "../assets/images/image3.png"
+import PROJECT_IMG_4 from "../assets/images/image.png"
+import PROJECT_IMG_5 from "../assets/images/image5.png"
 
 export const MENU_LINKS = [
     {id: "01", label: "Home", offset: -100, to: "hero"},
@@ -182,53 +187,48 @@ export const ABOUT_ME = {
             id: "01", label: "Dribble", icon: FaDribbble, Link: "#",
         },
     ],
-    email: "pauladibe24@gmail.com",
-    phone: "+234 8109817134",
-    website: "#"
+    email: "Email",
+    phone: "Phone Number",
+    website: "paulofph.onrender.com",
+    instagram: "Instagram",
+    github: "Github"
 }
 
 export const PROJECTS = [
     {
         id: 1,
         title:
-            "Full Stack Poll App Undergraduate Project | MongoDB, Express, React JS, Node JS",
-            image: "PROJECT_IMG_1",
-            tags:["React", "Node.js", "Express.js", "MongoDB"],
+            "Full Stack Poll App Undergraduate Project | MongoDB, Express, React JS, Node JS, CSS",
+            image: PROJECT_IMG_1,
+            tags:["REACT","CSS", "NODE.JS", "EXPRESS.JS", "MongoDB"],
     },
 
     {
         id: 2,
         title:
-            "Project 2 | MongoDB, Express, React JS, Node JS",
-            image: "PROJECT_IMG_1",
-            tags:["React", "Node.js", "Express.js", "MongoDB"],
+            "Group Hackathon Project @MRsoft | HTML, CSS, JAVASCRIPT",
+            image: PROJECT_IMG_2,
+            tags:["Html", "CSS", "JAVASCRIPT"],
     },
     {
         id: 3,
         title:
-            "Project 3 | MongoDB, Express, React JS, Node JS",
-            image: "PROJECT_IMG_1",
-            tags:["React", "Node.js", "Express.js", "MongoDB"],
+            "Landing Page for a WristWatch Brand | HTML, CSS, JAVASCRIPT",
+            image: PROJECT_IMG_3,
+            tags:["Html", "CSS", "JAVASCRIPT"],
     },
     {
         id: 4,
         title:
-            "Project 4 | MongoDB, Express, React JS, Node JS",
-            image: "PROJECT_IMG_1",
-            tags:["React", "Node.js", "Express.js", "MongoDB"],
+            "Group Hackathon Project | HTML, CSS, JAVASCRIPT",
+            image: PROJECT_IMG_4,
+            tags:["Html", "CSS", "JAVASCRIPT"],
     },
     {
         id: 5,
         title:
-            "Project 5 | MongoDB, Express, React JS, Node JS",
-            image: "PROJECT_IMG_1",
-            tags:["React", "Node.js", "Express.js", "MongoDB"],
-    },
-    {
-        id: 6,
-        title:
-            "Project 6 | MongoDB, Express, React JS, Node JS",
-            image: "PROJECT_IMG_1",
-            tags:["React", "Node.js", "Express.js", "MongoDB"],
+            "Atech Books | REACT JS, CSS",
+            image: PROJECT_IMG_5,
+            tags:["React", "CSS"],
     },
 ]

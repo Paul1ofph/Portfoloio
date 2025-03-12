@@ -1,9 +1,21 @@
 import React from 'react'
-// import Profile_Pic from "../assets/images/download (2).png"
-import Icon1 from "../assets/images/react-removebg-preview.png"
-import Icon2 from "../assets/images/Js-removebg-preview.png"
-import Icon3 from "../assets/images/css-removebg-preview.png"
-import Icon4 from "../assets/images/corel-removebg-preview.png"
+// import Profile_Pic from "../assets/images/P2.png"
+import Profile_Pic from "../assets/images/ProfilePic.png"
+// import Icon1 from "../assets/images/react-removebg-preview.png"
+// import Icon2 from "../assets/images/Js-removebg-preview.png"
+// import Icon3 from "../assets/images/css-removebg-preview.png"
+// import Icon4 from "../assets/images/corel-removebg-preview.png"
+
+import {
+    FaReact,
+    FaHtml5,
+    FaCss3,
+    FaNodeJs,
+    FaFacebook,
+    FaInstagram,
+    FaLinkedin,
+} from "react-icons/fa"
+
 import { STATS } from '../utils/data'
 import StatInfoCard from '../Components/StatInfoCard'
 
@@ -25,16 +37,18 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <div className="hidden lg:block w-[300px] md:w-[370px] h-[350px] md:h-[428px] bg-orange-100/50 rounded-3xl relative order-1 lg:order-2">
-                    <img src="{Profile_Pic}" alt="ProfilePic" className='profile-pic flex justify-center'/>
+                {/* <div className="hidden lg:block w-[300px] md:w-[370px] h-[350px] md:h-[428px] bg-orange-100/50 rounded-3xl relative order-1 lg:order-2"> */}
+                <div className="h-[350px] md:h-[428px] bg-orange-100/50 rounded-3xl relative mx-auto order-2 lg:order-2">
 
-                    <img src={Icon1} alt="Icon1" className='icon-img md:-left-10  bottom-20 rotate-[1.75deg]' />
+                    <img src={Profile_Pic} alt="ProfilePic" className='profile-pic'/>
 
-                    <img src={Icon2} alt="Icon2" className='icon-img left-5 md:left-10 bottom-2 rotate-[2.75deg]' />
+                    {/* <img src="FaReact" alt="Icon1" className='icon-img md:-left-10  bottom-20 rotate-[1.75deg]' /> */}
+
+                    {/* <img src={Icon2} alt="Icon2" className='icon-img left-5 md:left-10 bottom-2 rotate-[2.75deg]' />
 
                     <img src={Icon3} alt="Icon3" className='icon-img left-[110px] md:left-[150px] -bottom-5 rotate-[3.75deg]' />
 
-                    <img src={Icon4} alt="Icon4" className='icon-img left-[200px]  md:left-[255px] -bottom-10 md:-bottom-10 rotate-[4.75deg]' />
+                    <img src={Icon4} alt="Icon4" className='icon-img left-[200px]  md:left-[255px] -bottom-10 md:-bottom-10 rotate-[4.75deg]' /> */}
 
                 </div>
             </div>

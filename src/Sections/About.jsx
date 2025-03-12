@@ -1,14 +1,16 @@
 import React from 'react'
 
-// import Profile_Pic from "../assets/images/download (2).png"
+// import Profile_Pic from "../assets/images/ProfilePic.png"
+import Profile_Pic from "../assets/images/P2.png"
+
 import { ABOUT_ME } from '../utils/data'
 const About = () => {
   return (
     <section id='about' className='container mx-auto px-8 py-16'>
         <h4 className="block lg:hidden w-[200px] section-title text-left mb-16">About Me</h4>
         <div className="flex flex-col lg:flex-row gap-16 items-start justify-between">
-            <div className="hidden lg:block w-[300px] md:w-[370px] h-[350px] md:h-[428px] bg-orange-100/50 rounded-3xl mx-auto">
-                {/* <img src="" alt="Profile Pic" className='profile-pic' /> */}
+            <div className="  h-[350px] md:h-[428px] bg-orange-100/50 rounded-3xl mx-auto">
+                <img src={Profile_Pic} alt="Profile Pic" className='profile-pic' />
             </div>
             <div className="flex-1">
                 <h4 className="hidden lg:block w-[200px] section-title text-left">About Me</h4>
