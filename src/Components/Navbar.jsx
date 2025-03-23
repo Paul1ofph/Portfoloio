@@ -73,7 +73,8 @@ const Navbar = () => {
       {/* Navigation Links */}
       <ul className={`
           ${isOpen ? "flex" : "hidden"}
-           menu-wrapper`}>
+           menu-wrapper`}
+           >
         {MENU_LINKS.map((item) => (
           <li key={item.id}>
             <Link
@@ -83,6 +84,7 @@ const Navbar = () => {
             spy
             offset={item.offset}
             className="menu-item"
+            onClick={toggleMenu}
             >
               {item.label}
             </Link>

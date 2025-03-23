@@ -10,7 +10,7 @@ import Projects from "./Sections/Projects"
 function App() {
   return (
     <>
-    <Navbar />
+    {/* <Navbar /> */}
     <Hero />
     <TechnicalProficiency />
     <About />
