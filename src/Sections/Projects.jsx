@@ -37,7 +37,7 @@ const Projects = () => {
                 <div className="overflow-hidden" ref={emblaRef}>
                     <div className="flex pt-14 pb-8">
                         {PROJECTS.map((project) =>(
-                            <div 
+                        <div 
                             key={project.id}    
                             className="min-w-[100%] sm:min-w-[50%] lg:min-w-[33%]">
                                 <ProjectCard 
@@ -45,6 +45,7 @@ const Projects = () => {
                                     imgUrl={project.image}
                                     title={project.title}
                                     tags={project.tags}
+                                    link={project.Link}
                                 />
                             </div>
                         ))}

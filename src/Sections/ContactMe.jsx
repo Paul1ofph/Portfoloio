@@ -2,9 +2,8 @@ import React from 'react'
 import { IoMdMail, IoMdPhonePortrait } from 'react-icons/io'
 import { ABOUT_ME } from '../utils/data'
 import ContactInfoCard from '../Components/ContactInfoCard'
-import { MdOutlineWeb } from 'react-icons/md'
 import { FaInstagram } from 'react-icons/fa6'
-import { FaGit, FaGitAlt } from 'react-icons/fa'
+import {FaGitAlt } from 'react-icons/fa'
 
 const ContactMe = () => {
   return (
@@ -14,7 +13,7 @@ const ContactMe = () => {
                 <h4 className='section-title'>Contact Me</h4>
 
                 <p className="text-sm text-center mt-4 leading-6">
-                    A versatile developer with hands-on expertise in modern technologies, tools, and frameworks, dedicated to building efficient, scalable, and user-centric solutions.
+                    A versatile graphics designer and frontend developer with hands-on expertise in modern technologies, tools, and frameworks, dedicated to building efficient, scalable, and user-centric solutions.
                 </p>
             </div>
 

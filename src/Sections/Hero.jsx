@@ -1,7 +1,7 @@
 import React from 'react'
 // import Profile_Pic from "../assets/images/P2.png"
 import Profile_Pic from "../assets/images/ProfilePic.png"
-// import Icon1 from "../assets/images/react-removebg-preview.png"
+import Icon1 from "../assets/images/react-removebg-preview.png"
 // import Icon2 from "../assets/images/Js-removebg-preview.png"
 // import Icon3 from "../assets/images/css-removebg-preview.png"
 // import Icon4 from "../assets/images/corel-removebg-preview.png"
@@ -25,15 +25,15 @@ const Hero = () => {
             <div className='flex flex-col lg:flex-row gap-14 items-center justify-between mt-[30px]'>
                 <div className="order-2 lg:order-1 text-center lg:text-left mt-5 lg:mt-0">
                     <h3 className='text-xl lg:text-2xl font-medium text-black'>👋 Hi, I'm PaulofPh</h3>
-                    <h1 className='w-full text-pretty lg:w-[400px] text-4xl lg:text-5xl font-bold leading-[50px] lg:leading-[60px] mt-3 bg-gradient-primary bg-clip-text text-transparent'>Building Scalable & User Centric Web Apps</h1>
+                    <h1 className='w-full text-pretty lg:w-[400px] text-4xl lg:text-5xl font-bold leading-[50px] lg:leading-[60px] mt-3 bg-gradient-primary bg-clip-text text-transparent'>Crafting Stunning Designs & Seamless Web Experiences</h1>
 
                     <p className="w-full text-pretty lg:w-[500px] text-sm lg:text-base mt-4">
-                        I'm a passionate Frontend Developer and Graphics Designer crafting responsive, accesible, and dynamic web experiences using React Js, and CSS.
+                        I'm a Front-End Developer & Graphics Designer specializing in React.js and CorelDraw. With a passion for creativity and technology, i design and develop visually engaging, user-friendly digital experiences that leave a lasting impact
                     </p>
 
                     <div className="flex flex-wrap justify-center lg:justify-start gap-4 md:gap-8 mt-6">
                         <button className="flex-1 w-max md:flex-none action-btn-outline btn-scale-anim">View My Work</button>
-                        <button className="flex-1 md:flex-none action-btn btn-scale-anim">Download Resume</button>
+                        <a href={Icon1} download={"Icon1"}><button className="flex-1 md:flex-none action-btn btn-scale-anim">Download Resume</button></a>
                     </div>
                 </div>
 

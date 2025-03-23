@@ -8,7 +8,7 @@ import {
     FaLinkedin,
 } from "react-icons/fa"
 import {BiLogoJavascript} from "react-icons/bi"
-import {SiExpress, SiMongodb, SiMysql, SiWebpack} from "react-icons/si"
+import {SiExpress, SiCoreldraw, SiMongodb, SiMysql, SiWebpack} from "react-icons/si"
 import {
     VscVscode,
     VscCommentUnresolved,
@@ -31,16 +31,17 @@ export const MENU_LINKS = [
 ]
 
 export const STATS = [
-    {id: "01", count: "10", label: `Years of \nExperience`},
-    {id: "02", count: "12", label: `Certifactaions \nEarned`},
-    {id: "03", count: "143", label: `Projects \nCompleted`},
-    {id: "04", count: "37+", label: `Happily  \nClients`},
+    {id: "01", count: "4", label: `Years of \nExperience`},
+    {id: "02", count: "4", label: `Certifactaions \nEarned`},
+    {id: "03", count: "37+", label: `Projects \nCompleted`},
+    {id: "04", count: "15", label: `Happy  \nClients`},
 ]
 
 export const SKILL_TABS = [
     {id: "01", label: "All", value: "all"},
     {id: "02", label: "Frontend", value: "frontend"},
-    {id: "03", label: "Backend", value: "backend"},
+    // {id: "03", label: "Backend", value: "backend"},
+    {id: "03", label: "Design", value: "graphic-design"},
     {id: "04", label: "Tools", value: "tools"},
     {id: "05", label: "Skills", value: "soft-skills"},
 ]
@@ -86,52 +87,52 @@ export const SKILLS = [
         "Skilled in writing clean, moudles and sufficient JavaScript code to creat interactive web functions"
     },
 
-    {
-        id: "05",
-        icon: FaNodeJs,
-        skill: "Node JS",
-        progress: 95,
-        type: "backend",
-        description:
-        "Skilled in building scalable and high-performance server-side applications using Node.js."
-    },
+    // {
+    //     id: "05",
+    //     icon: FaNodeJs,
+    //     skill: "Node JS",
+    //     progress: 95,
+    //     type: "backend",
+    //     description:
+    //     "Skilled in building scalable and high-performance server-side applications using Node.js."
+    // },
 
-    {
-        id: "06",
-        icon: SiExpress,
-        skill: "Express JS",
-        progress: 98,
-        type: "backend",
-        description:
-        "Proficient in developing RESTFUL APIs and middleware using Express.js."
-    },
+    // {
+    //     id: "06",
+    //     icon: SiExpress,
+    //     skill: "Express JS",
+    //     progress: 98,
+    //     type: "backend",
+    //     description:
+    //     "Proficient in developing RESTFUL APIs and middleware using Express.js."
+    // },
 
-    {
-        id: "07",
-        icon: SiMongodb,
-        skill: "MongoDB",
-        progress: 75,
-        type: "backend",
-        description:
-        "Experienced in designing and managing NoSql databases using MongoDB. Skilled in schema design."
-    },
+    // {
+    //     id: "07",
+    //     icon: SiMongodb,
+    //     skill: "MongoDB",
+    //     progress: 75,
+    //     type: "backend",
+    //     description:
+    //     "Experienced in designing and managing NoSql databases using MongoDB. Skilled in schema design."
+    // },
 
-    {
-        id: "08",
-        icon: SiMysql,
-        skill: "SQL",
-        progress: 90,
-        type: "backend",
-        description:
-        "Proficient in working with relation databases using SQL, Experienced in writing complex queries."
-    },
+    // {
+    //     id: "08",
+    //     icon: SiMysql,
+    //     skill: "SQL",
+    //     progress: 90,
+    //     type: "backend",
+    //     description:
+    //     "Proficient in working with relation databases using SQL, Experienced in writing complex queries."
+    // },
     
     {
         id: "09",
-        icon: FaGitAlt,
-        skill: "GitHub JS",
+        icon: VscTerminalPowershell,
+        skill: "RESTful APIs & JSON",
         progress: 98,
-        type: "backend",
+        type: "soft-skills",
         description:
         "Proficient in developing RESTFUL APIs and middleware using Express.js."
     },
@@ -148,6 +149,16 @@ export const SKILLS = [
 
     {
         id: "11",
+        icon: SiCoreldraw,
+        skill: "CorelDraw",
+        progress: 98,
+        type: "tools",
+        description:
+        "Well versed in using Corel Draw in designing vector illustrations, branding materials, UI components, and print media that communicate effectively."
+    },
+
+    {
+        id: "12",
         icon: VscVscode,
         skill: "Visual Studio Code",
         progress: 95,
@@ -156,7 +167,7 @@ export const SKILLS = [
         "Well versed in using Visual Studio Code with custom extensions and debugging tools for a smooth development workflow. Optimized for productivity with shortcuts and automation"
     },
     {
-        id: "12",
+        id: "13",
         icon: MdGroup,
         skill: "Collaboration",
         progress: 95,
@@ -164,28 +175,38 @@ export const SKILLS = [
         description:
         "Experienced in working within teams, contributing ideas and integrating feedback. Effective communication ensures smooth project execution and shared success"
     },
+
+    {
+        id: "14",
+        icon: SiCoreldraw,
+        skill: "CorelDraw",
+        progress: 98,
+        type: "graphic-design",
+        description:
+        "Well versed in using Corel Draw in designing vector illustrations, branding materials, UI components, and print media that communicate effectively."
+    },
 ]
 
 export const ABOUT_ME = {
-    content: `I'm a passionate Frontend Developer with a strong foundation in building responsive, user-friendly web applications. With a keen eye for design and performances, I specialize in crafting seamless digital experiences using modern technologies like React js, JavaScript, and Tailwinf CSS. My goal is to bridge the gap between aesthetics and functionality, ensuring every project i work on is both visually appealing and highly performant.
+    content: `My Name is Adibe Chibueze and i am a passionate Frontend Developer and Graphics Designer   with a deep understanding of how design and functionality come together to create engaging user experiences. My expertise in React.js allows me to develop dynamic, high-performance web applications, while my profieciency in CorelDraw helps me design visually stunning grapics that elevate brands.
     
-    \nMy journey in web development started witha  simple curisoity-how does the web work? Fast forward to today i have built dynamic applications, collaborated with teams and honed my skills in frontend development. i love tackling challenges, optimizing user experiences, and bringing creative ideas to life through code. lets build something amzing together`,
+    \nWith a keen eye for detail and problem-solving mindset, i thrive on transforming ideas into interactive digital solutions that are not only aesthetically appealing but also highly functional. Whether it's building responsive websites, or designing captivating visuals, I am committed to delivering high-quality work that meets user needs and industry standards.`,
     socialLinks: [
         {
-            id: "01", label: "Facebook", icon: FaFacebook, Link: "#",
+            id: "01", label: "Facebook", icon: FaFacebook, Link: "https://facebook.com/paul.adibe.754",
         },
         {
-            id: "02", label: "Instagram", icon: FaInstagram, Link: "#",
+            id: "02", label: "Instagram", icon: FaInstagram, Link: "https://instagram.com/paul.adibe.754",
         },
         {
-            id: "03", label: "Twitter", icon: FaTwitter, Link: "#",
+            id: "03", label: "Twitter", icon: FaTwitter, Link: "https://twitter.com/paul_adibe",
         },
         {
-            id: "04", label: "LinkedIn", icon: FaLinkedin, Link: "#",
+            id: "04", label: "LinkedIn", icon: FaLinkedin, Link: "https://linkedin.com/in/chibueze-adibe-280126282",
         }, 
-        {
-            id: "01", label: "Dribble", icon: FaDribbble, Link: "#",
-        },
+        // {
+        //     id: "01", label: "Dribble", icon: FaDribbble, Link: "#",
+        // },
     ],
     email: "Email",
     phone: "Phone Number",
@@ -198,17 +219,19 @@ export const PROJECTS = [
     {
         id: 1,
         title:
-            "Full Stack Poll App Undergraduate Project | MongoDB, Express, React JS, Node JS, CSS",
+            "Undergraduate Project Full Stack Anonymous Poll App | MongoDB, Express, React JS, Node JS, CSS",
             image: PROJECT_IMG_1,
             tags:["REACT","CSS", "NODE.JS", "EXPRESS.JS", "MongoDB"],
+            Link:"https://anonymouspoll-frontend.onrender.com"
     },
 
     {
         id: 2,
         title:
-            "Group Hackathon Project @MRsoft | HTML, CSS, JAVASCRIPT",
+            "Group Hackathon landing page Project for MRsoft furniture store | HTML, CSS, JAVASCRIPT",
             image: PROJECT_IMG_2,
             tags:["Html", "CSS", "JAVASCRIPT"],
+            Link:"",
     },
     {
         id: 3,
@@ -216,6 +239,7 @@ export const PROJECTS = [
             "Landing Page for a WristWatch Brand | HTML, CSS, JAVASCRIPT",
             image: PROJECT_IMG_3,
             tags:["Html", "CSS", "JAVASCRIPT"],
+            Link:"",
     },
     {
         id: 4,
@@ -223,6 +247,7 @@ export const PROJECTS = [
             "Group Hackathon Project | HTML, CSS, JAVASCRIPT",
             image: PROJECT_IMG_4,
             tags:["Html", "CSS", "JAVASCRIPT"],
+            Link:"",
     },
     {
         id: 5,
@@ -230,5 +255,6 @@ export const PROJECTS = [
             "Atech Books | REACT JS, CSS",
             image: PROJECT_IMG_5,
             tags:["React", "CSS"],
+            Link:"",
     },
 ]
