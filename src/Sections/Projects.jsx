@@ -7,7 +7,7 @@ import ProjectCard from '../Components/ProjectCard'
 
 const Projects = () => {
 
-    const [emblaRef, emblaApi] = useEmblaCarousel({loop: true, align: "start"})
+    const [emblaRef, emblaApi] = useEmblaCarousel({loop: false, align: "start"})
     const [canScrollPrev, setCanScrollPrev] = useState(false)
     const [canScrollNext, setCanScrollNext] = useState(false)
 
