@@ -32,7 +32,7 @@ const Hero = () => {
                     </p>
 
                     <div className="flex flex-wrap justify-center lg:justify-start gap-4 md:gap-8 mt-6">
-                        <button className="flex-1 w-max md:flex-none action-btn-outline btn-scale-anim">View My Work</button>
+                        <button className="flex-1  md:flex-none action-btn-outline btn-scale-anim">View My Work</button>
                         <a href={Icon1} download={"Icon1"}><button className="flex-1 md:flex-none action-btn btn-scale-anim">Download Resume</button></a>
                     </div>
                 </div>

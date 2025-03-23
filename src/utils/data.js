@@ -230,7 +230,7 @@ export const PROJECTS = [
         title:
             "Group Hackathon landing page Project for MRsoft furniture store | HTML, CSS, JAVASCRIPT",
             image: PROJECT_IMG_2,
-            tags:["Html", "CSS", "JAVASCRIPT"],
+            tags:["HTML", "CSS", "JAVASCRIPT"],
             Link:"https://hackathon-t5nl.onrender.com",
     },
     {
@@ -238,7 +238,7 @@ export const PROJECTS = [
         title:
             "Landing Page for a WristWatch Brand | HTML, CSS, JAVASCRIPT",
             image: PROJECT_IMG_3,
-            tags:["Html", "CSS", "JAVASCRIPT"],
+            tags:["HTML", "CSS", "JAVASCRIPT"],
             Link:"https://zircon-accesories.onrender.com",
     },
     {
@@ -246,7 +246,7 @@ export const PROJECTS = [
         title:
             "Group Hackathon Budget Calculator Project | HTML, CSS, JAVASCRIPT",
             image: PROJECT_IMG_4,
-            tags:["Html", "CSS", "JAVASCRIPT"],
+            tags:["HTML", "CSS", "JAVASCRIPT"],
             Link:"https://budget-calculator-azaa.onrender.com",
     },
     {
@@ -254,7 +254,7 @@ export const PROJECTS = [
         title:
             "Atech Books | REACT JS, CSS",
             image: PROJECT_IMG_5,
-            tags:["React", "CSS"],
+            tags:["REACT", "CSS"],
             Link:"https://reactproject-b07j.onrender.com",
     },
 ]
