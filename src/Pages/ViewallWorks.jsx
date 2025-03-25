@@ -8,9 +8,9 @@ const ViewallWorks = () => {
   return (
     <>
     <Navbar />
-    <section>
-    <h4 className="section-title">All Projects</h4>
-        <div className="flex flex-wrap pt-14 pb-8 gap-8">
+    <section className='container'>
+    <h4 className="section-title mb-5">All Projects</h4>
+        <div className="relative grid gap-6 md:grid-cols-2  md:gap-4 md:pb-[7rem]">
             {PROJECTS.map((project) =>(
                 <div 
                     key={project.id}    

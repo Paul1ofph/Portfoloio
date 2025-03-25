@@ -21,7 +21,30 @@ import PROJECT_IMG_2 from "../assets/images/image2.png"
 import PROJECT_IMG_3 from "../assets/images/image3.png"
 import PROJECT_IMG_4 from "../assets/images/image.png"
 import PROJECT_IMG_5 from "../assets/images/image5.png"
-import PROJECT_IMG_6 from "../assets/images/designimage1.jpg"
+import PROJECT_IMG_6 from "../assets/images/image4.png"
+import DESIGN_IMG_1 from "../assets/images/designimage1.jpg"
+import DESIGN_IMG_2 from "../assets/images/designimage2.jpg"
+import DESIGN_IMG_3 from "../assets/images/designimage3.jpg"
+import DESIGN_IMG_4 from "../assets/images/designimage4.jpg"
+import DESIGN_IMG_5 from "../assets/images/designimage5.jpg"
+import DESIGN_IMG_6 from "../assets/images/designimage6.jpg"
+import DESIGN_IMG_7 from "../assets/images/designimage7.jpg"
+import DESIGN_IMG_8 from "../assets/images/designimage8.jpg"
+import DESIGN_IMG_9 from "../assets/images/designimage9.jpg"
+import DESIGN_IMG_10 from "../assets/images/designimage10.jpg"
+import DESIGN_IMG_11 from "../assets/images/designimage11.jpg"
+import DESIGN_IMG_12 from "../assets/images/designimage12.jpg"
+import DESIGN_IMG_13 from "../assets/images/designimage13.jpg"
+import DESIGN_IMG_14 from "../assets/images/designimage14.jpg"
+import DESIGN_IMG_15 from "../assets/images/designimage15.jpg"
+import DESIGN_IMG_16 from "../assets/images/designimage16.jpg"
+import DESIGN_IMG_17 from "../assets/images/designimage17.jpg"
+import DESIGN_IMG_18 from "../assets/images/designimage18.jpg"
+import DESIGN_IMG_19 from "../assets/images/designimage19.jpg"
+import DESIGN_IMG_20 from "../assets/images/designimage20.jpg"
+import DESIGN_IMG_21 from "../assets/images/designimage21.jpg"
+import DESIGN_IMG_22 from "../assets/images/designimage22.jpg"
+import DESIGN_IMG_23 from "../assets/images/designimage23.jpg"
 
 export const PAGES = [
     {
@@ -46,9 +69,9 @@ export const MENU_LINKS = [
 ]
 
 export const STATS = [
-    {id: "01", count: "4", label: `Years of \nExperience`},
+    {id: "01", count: "4+", label: `Years of \nExperience`},
     {id: "02", count: "4", label: `Certifactaions \nEarned`},
-    {id: "03", count: "37+", label: `Projects \nCompleted`},
+    {id: "03", count: "29+", label: `Projects \nCompleted`},
     {id: "04", count: "15", label: `Happy  \nClients`},
 ]
 
@@ -56,7 +79,7 @@ export const SKILL_TABS = [
     {id: "01", label: "All", value: "all"},
     {id: "02", label: "Frontend", value: "frontend"},
     // {id: "03", label: "Backend", value: "backend"},
-    {id: "03", label: "Design", value: "graphic-design"},
+    // {id: "03", label: "Design", value: "graphic-design"},
     {id: "04", label: "Tools", value: "tools"},
     {id: "05", label: "Skills", value: "soft-skills"},
 ]
@@ -191,15 +214,15 @@ export const SKILLS = [
         "Experienced in working within teams, contributing ideas and integrating feedback. Effective communication ensures smooth project execution and shared success"
     },
 
-    {
-        id: "14",
-        icon: SiCoreldraw,
-        skill: "CorelDraw",
-        progress: 98,
-        type: "graphic-design",
-        description:
-        "Well versed in using Corel Draw in designing vector illustrations, branding materials, UI components, and print media that communicate effectively."
-    },
+    // {
+    //     id: "14",
+    //     icon: SiCoreldraw,
+    //     skill: "CorelDraw",
+    //     progress: 98,
+    //     type: "graphic-design",
+    //     description:
+    //     "Well versed in using Corel Draw in designing vector illustrations, branding materials, UI components, and print media that communicate effectively."
+    // },
 ]
 
 export const ABOUT_ME = {
@@ -276,60 +299,196 @@ export const PROJECTS = [
     {
         id: 6,
         title:
-            "Atech Image | REACT JS, CSS",
-            image: PROJECT_IMG_5,
-            tags:["REACT", "CSS"],
+            "Atech Image | HTML, CSS, JAVASCRIPT",
+            image: PROJECT_IMG_6,
+            tags:["HTML", "CSS", "JAVASCRIPT"],
             Link:"https://reactproject-b07j.onrender.com",
     },
 
-    {
-        id: 7,
-        title:
-            "Atech Icon | REACT JS, CSS",
-            image: PROJECT_IMG_5,
-            tags:["REACT", "CSS"],
-            Link:"https://reactproject-b07j.onrender.com",
-    },
 ]
 
 export const DESIGNPROJECTS = [
     {
         id: 1,
         title:
-            "MIPO GADGETS flyer Design | Corel Draw",
-            image: PROJECT_IMG_6,
+            "ATECH GRAPHICS BRAND Flyer Design | Corel Draw",
+            image: DESIGN_IMG_1,
             tags:["Corel Draw"],
     },
 
     {
         id: 2,
         title:
-            "MIPO GADGETS flyer Design | Corel Draw",
-            image: PROJECT_IMG_6,
+            "MIPO GADGETS BRAND Flyer Design | Corel Draw",
+            image: DESIGN_IMG_2,
             tags:["Corel Draw"],
     },
 
     {
         id: 3,
         title:
-            "MIPO GADGETS flyer Design | Corel Draw",
-            image: PROJECT_IMG_6,
+            "RAE'S OUTLET BRAND Flyer Design | Corel Draw",
+            image: DESIGN_IMG_3,
             tags:["Corel Draw"],
     },
 
     {
         id: 4,
         title:
-            "MIPO GADGETS flyer Design | Corel Draw",
-            image: PROJECT_IMG_6,
+            "SAVERA AFRICA GENDER INITIATIVE (SAGI) Flyer Design | Corel Draw",
+            image: DESIGN_IMG_4,
             tags:["Corel Draw"],
     },
 
     {
         id: 5,
         title:
-            "MIPO GADGETS flyer Design | Corel Draw",
-            image: PROJECT_IMG_6,
+            "VALLEYVIEW SEVENTH-DAY ADVENTIST CHURCH Flyer Design | Corel Draw",
+            image: DESIGN_IMG_5,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 6,
+        title:
+            "MIPO GADGETS BRAND Flyer Design | Corel Draw",
+            image: DESIGN_IMG_6,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 7,
+        title:
+            "MIPO GADGETS BRAND Flyer Design | Corel Draw",
+            image: DESIGN_IMG_7,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 8,
+        title:
+            "NAILS BY PRESH-WALTZ BRAND Flyer Design | Corel Draw",
+            image: DESIGN_IMG_8,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 9,
+        title:
+            "SOU_SLEEK BRAND Logo Design | Corel Draw",
+            image: DESIGN_IMG_9,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 10,
+        title:
+            "MIPO GADGETS BRAND Business Card Design | Corel Draw",
+            image: DESIGN_IMG_10,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 11,
+        title:
+            "ZINA MEDIA BRAND Flyer Design | Corel Draw",
+            image: DESIGN_IMG_11,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 12,
+        title:
+            "NIGERIAN ASSOCIATION OF ADVENTIST STUDENTS (NAAS) ADELEKE UNIVERSITY CHAPTER Flyer Design | Corel Draw",
+            image: DESIGN_IMG_12,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 13,
+        title:
+            "MIPO GADGETS Flyer Design | Corel Draw",
+            image: DESIGN_IMG_13,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 14,
+        title:
+            "HEPH BRAND Logo Design | Corel Draw",
+            image: DESIGN_IMG_14,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 15,
+        title:
+            "BELLAURA BRAND Logo Design | Corel Draw",
+            image: DESIGN_IMG_15,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 16,
+        title:
+            "EQUITY CHAMBERS, FACULTY OF LAW, IMO STATE UNIVERSITY. Flyer Design | Corel Draw",
+            image: DESIGN_IMG_16,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 17,
+        title:
+            "MIPO GADGETS BRAND Flyer Design | Corel Draw",
+            image: DESIGN_IMG_17,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 18,
+        title:
+            "MIPO GADGETS BRAND Flyer Design | Corel Draw",
+            image: DESIGN_IMG_18,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 19,
+        title:
+            "NAILS BY PRESH-WALTZ BRAND Flyer Design | Corel Draw",
+            image: DESIGN_IMG_19,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 20,
+        title:
+            "SAVERA AFRICA GENDER INITIATIVE (SAGI) Flyer Design | Corel Draw",
+            image: DESIGN_IMG_20,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 21,
+        title:
+            "NAILS BY PRESH-WALTZ BRAND Flyer Design | Corel Draw",
+            image: DESIGN_IMG_21,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 22,
+        title:
+            "SOU_SLEEK BRAND Flyer Design | Corel Draw",
+            image: DESIGN_IMG_22,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 23,
+        title:
+            "MIPO GADGETS BRAND Flyer Design | Corel Draw",
+            image: DESIGN_IMG_23,
             tags:["Corel Draw"],
     },
 

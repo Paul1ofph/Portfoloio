@@ -31,7 +31,7 @@ const DesignCarousel = () => {
                 <h4 className="section-title">Recent Design Projects</h4>
 
                 <p className="text-sm text-center mt-4 leading-6">
-                    From concept to deployment, these projects showcase my technical expertise. I focus on clean code, performance, and user experience.
+                    From inspiration to design, these projects showcase my technical expertise.
                 </p>
             </div>
 
