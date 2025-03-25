@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { MENU_LINKS } from '../utils/data'
-import {Link} from 'react-scroll'
+// import {Link} from 'react-scroll'
+import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 const Navbar = () => {
 
@@ -36,7 +38,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between rounded-full bg-white/25 border border-[#feebcc] backdrop-blur-[5px] m-5 p-3 md:p-0 ">
       {/* Logo */}
       {/* <img src="" alt="LOGO" className="h-7 ml-6 -mb-1" /> */}
-      <div className="font-bold text-xl h-7 ml-6 -mb-1">PaulofPh </div>
+      <HashLink to="/#" smooth><div className="font-bold text-xl h-7 ml-6 -mb-1 cursor-pointer">PaulofPh </div></HashLink>
 
       {/* Hamburger Icon (Visible only on small screens) */}
       <button
@@ -77,17 +79,18 @@ const Navbar = () => {
            >
         {MENU_LINKS.map((item) => (
           <li key={item.id}>
-            <Link
+            <HashLink
             activeClass="active"
-            to={item.to}
+            // to={item.to}
+            to={item.path}
             smooth
             spy
             offset={item.offset}
             className="menu-item"
-            onClick={toggleMenu}
+            // onClick={toggleMenu}
             >
               {item.label}
-            </Link>
+            </HashLink>
           </li>
         ))}
       </ul>

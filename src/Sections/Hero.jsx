@@ -15,6 +15,7 @@ import {
     FaInstagram,
     FaLinkedin,
 } from "react-icons/fa"
+import { Link } from 'react-router-dom'
 
 import { STATS } from '../utils/data'
 import StatInfoCard from '../Components/StatInfoCard'
@@ -34,7 +35,7 @@ const Hero = () => {
                     </p>
 
                     <div className="flex flex-wrap justify-center lg:justify-start gap-4 md:gap-8 mt-6">
-                        <button className="flex-1  md:flex-none action-btn-outline btn-scale-anim">View My Work</button>
+                        <Link to="/viewall"><button className="flex-1  md:flex-none action-btn-outline btn-scale-anim">View My Work</button></Link>
                         <a href="/docs/Resume.pdf" download={"Resume"} target='_blank'><button className="flex-1 md:flex-none action-btn btn-scale-anim">Download Resume</button></a>
                     </div>
                 </div>

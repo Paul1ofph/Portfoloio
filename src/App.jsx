@@ -1,22 +1,24 @@
 import React from "react"
-import Navbar from "./Components/Navbar"
-import Hero from "./Sections/Hero"
-import TechnicalProficiency from "./Sections/TechnicalProficiency"
-import About from "./Sections/About"
-import ContactMe from "./Sections/ContactMe"
-import Footer from "./Sections/Footer"
-import Projects from "./Sections/Projects"
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import HomePage from "./Pages/HomePage"
+import ViewallWorks from "./Pages/ViewallWorks"
 
 function App() {
   return (
     <>
-    {/* <Navbar /> */}
-    <Hero />
-    <TechnicalProficiency />
-    <About />
-    <Projects />
-    <ContactMe />
-    <Footer />
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/viewall" element={<ViewallWorks />} />
+      </Routes>
+    </Router>
+    {/* <HomePage /> */}
+    {/* <ViewallWorks /> */}
     </>
   )
 }

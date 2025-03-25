@@ -22,12 +22,26 @@ import PROJECT_IMG_3 from "../assets/images/image3.png"
 import PROJECT_IMG_4 from "../assets/images/image.png"
 import PROJECT_IMG_5 from "../assets/images/image5.png"
 
+export const PAGES = [
+    {
+      id: "01",
+      label: "HomePage",
+      path: "/home",
+    },
+
+    {
+        id: "02",
+        label: "ViewallWorks",
+        path: "/viewall",
+      },
+]
+
 export const MENU_LINKS = [
-    {id: "01", label: "Home", offset: -100, to: "hero"},
-    {id: "02", label: "Skills", offset: -80, to: "skills"},
-    {id: "03", label: "About Me", offset: -80, to: "about"},
-    {id: "04", label: "Projects", offset: -80, to: "projects"},
-    {id: "05", label: "Contact", offset: -80, to: "contact"},
+    {id: "01", label: "Home", offset: -100, to: "hero", path: "/#hero" },
+    {id: "02", label: "Skills", offset: -80, to: "skills", path: "/#skills"},
+    {id: "03", label: "About Me", offset: -80, to: "about", path: "/#about"},
+    {id: "04", label: "Projects", offset: -80, to: "projects", path: "/#projects"},
+    {id: "05", label: "Contact", offset: -80, to: "contact", path: "/#contact"},
 ]
 
 export const STATS = [
@@ -71,7 +85,7 @@ export const SKILLS = [
         id: "03",
         icon: FaCss3,
         skill: "CSS",
-        progress: 65,
+        progress: 90,
         type: "frontend",
         description:
         "Proficient in designing visually appealing and responsive layouts using CSS and pre-processors"
@@ -131,7 +145,7 @@ export const SKILLS = [
         id: "09",
         icon: VscTerminalPowershell,
         skill: "RESTful APIs & JSON",
-        progress: 98,
+        progress: 75,
         type: "soft-skills",
         description:
         "Proficient in developing RESTFUL APIs and middleware using Express.js."
