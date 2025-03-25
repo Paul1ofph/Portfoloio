@@ -21,6 +21,7 @@ import PROJECT_IMG_2 from "../assets/images/image2.png"
 import PROJECT_IMG_3 from "../assets/images/image3.png"
 import PROJECT_IMG_4 from "../assets/images/image.png"
 import PROJECT_IMG_5 from "../assets/images/image5.png"
+import PROJECT_IMG_6 from "../assets/images/designimage1.jpg"
 
 export const PAGES = [
     {
@@ -271,4 +272,65 @@ export const PROJECTS = [
             tags:["REACT", "CSS"],
             Link:"https://reactproject-b07j.onrender.com",
     },
+
+    {
+        id: 6,
+        title:
+            "Atech Image | REACT JS, CSS",
+            image: PROJECT_IMG_5,
+            tags:["REACT", "CSS"],
+            Link:"https://reactproject-b07j.onrender.com",
+    },
+
+    {
+        id: 7,
+        title:
+            "Atech Icon | REACT JS, CSS",
+            image: PROJECT_IMG_5,
+            tags:["REACT", "CSS"],
+            Link:"https://reactproject-b07j.onrender.com",
+    },
+]
+
+export const DESIGNPROJECTS = [
+    {
+        id: 1,
+        title:
+            "MIPO GADGETS flyer Design | Corel Draw",
+            image: PROJECT_IMG_6,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 2,
+        title:
+            "MIPO GADGETS flyer Design | Corel Draw",
+            image: PROJECT_IMG_6,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 3,
+        title:
+            "MIPO GADGETS flyer Design | Corel Draw",
+            image: PROJECT_IMG_6,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 4,
+        title:
+            "MIPO GADGETS flyer Design | Corel Draw",
+            image: PROJECT_IMG_6,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 5,
+        title:
+            "MIPO GADGETS flyer Design | Corel Draw",
+            image: PROJECT_IMG_6,
+            tags:["Corel Draw"],
+    },
+
 ]
