@@ -10,7 +10,7 @@ const ViewallWorks = () => {
     <Navbar />
     <section>
     <h4 className="section-title">All Projects</h4>
-        <div className="flex flex-wrap pt-14 pb-8">
+        <div className="flex flex-wrap pt-14 pb-8 gap-8">
             {PROJECTS.map((project) =>(
                 <div 
                     key={project.id}    

@@ -27,8 +27,8 @@ const DevelopmentCarousel = () => {
     }, [emblaApiDev, updateButtonsDev]);
   
   return (<>
-                {/* Development Projects Carousel */}
-                <div className="container mx-auto px-8 md:px-10 py-10">
+            {/* Development Projects Carousel */}
+        <div className="container mx-auto px-8 md:px-10 py-10">
             <div className="w-full lg:w-[60vw] mx-auto">
                 <h4 className="section-title">Recent Dev. Projects</h4>
 
