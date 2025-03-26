@@ -72,7 +72,7 @@ export const STATS = [
     {id: "01", count: "4+", label: `Years of \nExperience`},
     {id: "02", count: "4", label: `Certifactaions \nEarned`},
     {id: "03", count: "29+", label: `Projects \nCompleted`},
-    {id: "04", count: "15", label: `Happy  \nClients`},
+    {id: "04", count: "19", label: `Happy  \nClients`},
 ]
 
 export const SKILL_TABS = [
