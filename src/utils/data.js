@@ -380,13 +380,13 @@ export const DESIGNPROJECTS = [
             tags:["Corel Draw"],
     },
 
-    {
-        id: 10,
-        title:
-            "MIPO GADGETS BRAND Business Card Design | Corel Draw",
-            image: DESIGN_IMG_10,
-            tags:["Corel Draw"],
-    },
+    // {
+    //     id: 10,
+    //     title:
+    //         "MIPO GADGETS BRAND Business Card Design | Corel Draw",
+    //         image: DESIGN_IMG_10,
+    //         tags:["Corel Draw"],
+    // },
 
     {
         id: 11,
