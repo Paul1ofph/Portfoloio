@@ -226,7 +226,7 @@ export const SKILLS = [
 ]
 
 export const ABOUT_ME = {
-    content: `My Name is Adibe Chibueze and i am a passionate Frontend Developer and Graphics Designer   with a deep understanding of how design and functionality come together to create engaging user experiences. My expertise in React.js allows me to develop dynamic, high-performance web applications, while my profieciency in CorelDraw helps me design visually stunning grapics that elevate brands.
+    content: `My Name is Chibueze Ndubuisi Adibe and i am a passionate Frontend Developer and Graphics Designer   with a deep understanding of how design and functionality come together to create engaging user experiences. My expertise in React.js allows me to develop dynamic, high-performance web applications, while my profieciency in CorelDraw helps me design visually stunning grapics that elevate brands.
     
     \nWith a keen eye for detail and problem-solving mindset, i thrive on transforming ideas into interactive digital solutions that are not only aesthetically appealing but also highly functional. Whether it's building responsive websites, or designing captivating visuals, I am committed to delivering high-quality work that meets user needs and industry standards.`,
     socialLinks: [
