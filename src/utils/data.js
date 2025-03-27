@@ -69,9 +69,9 @@ export const MENU_LINKS = [
 ]
 
 export const STATS = [
-    {id: "01", count: "4+", label: `Years of \nExperience`},
+    {id: "01", count: "4+", add: "+", label: `Years of \nExperience`},
     {id: "02", count: "4", label: `Certifactaions \nEarned`},
-    {id: "03", count: "29+", label: `Projects \nCompleted`},
+    {id: "03", count: "29+", add: "+", label: `Projects \nCompleted`},
     {id: "04", count: "19", label: `Happy  \nClients`},
 ]
 
