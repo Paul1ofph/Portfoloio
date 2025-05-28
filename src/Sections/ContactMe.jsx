@@ -4,7 +4,7 @@ import { ABOUT_ME, collabApps } from '../utils/data'
 import ContactInfoCard from '../Components/ContactInfoCard'
 import { FaInstagram } from 'react-icons/fa6'
 import {FaGitAlt } from 'react-icons/fa'
-import css from "../assets/images/css-removebg-preview.png"
+import logo1 from "../assets/images/logo.jpg"
 
 const ContactMe = () => {
 
@@ -36,7 +36,7 @@ const ContactMe = () => {
             <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
                 <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
                     <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
-                        <img src={css} width={48} height={48} alt="brainwave" />
+                        <img src={logo1} width={68} height={68} alt="brainwave" />
                     </div>
                 </div>
             </div>
