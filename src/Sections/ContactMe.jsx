@@ -1,11 +1,15 @@
 import React from 'react'
 import { IoMdMail, IoMdPhonePortrait } from 'react-icons/io'
-import { ABOUT_ME } from '../utils/data'
+import { ABOUT_ME, collabApps } from '../utils/data'
 import ContactInfoCard from '../Components/ContactInfoCard'
 import { FaInstagram } from 'react-icons/fa6'
 import {FaGitAlt } from 'react-icons/fa'
+import css from "../assets/images/css-removebg-preview.png"
 
 const ContactMe = () => {
+
+    // circle calculation
+    const angle = 360 / collabApps.length;
   return (
     <section id='contact'>
         <div className="container mx-auto p-10">
@@ -20,22 +24,35 @@ const ContactMe = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 md:gap-16 mt-16">
                 <div>
                     <a target='_blank' href="https://pauladibe5@gmail.com"><ContactInfoCard icon={<IoMdMail />} text={ABOUT_ME.email}/></a>
-                    {/* <a target='_blank' href="tel: +234-810-981-7134"><ContactInfoCard icon={<IoMdPhonePortrait />} text={ABOUT_ME.phone} /></a> */}
+                    <a target='_blank' href="tel: +234-810-981-7134"><ContactInfoCard icon={<IoMdPhonePortrait />} text={ABOUT_ME.phone} /></a>
                     <a target='_blank' href="https://github.com/Paul1ofph"><ContactInfoCard icon={<FaGitAlt />} text={ABOUT_ME.github} /></a>
                     <a target='_blank' href="https://www.instagram.com/graphic_designer_in_ph?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"><ContactInfoCard icon={<FaInstagram />} text={ABOUT_ME.instagram} /></a>
                 </div>
 
-                <div>
-                    <h5 className="md:hidden text-secondary text-lg font-medium mt-4 pb-5">Contact Form</h5>
-                <form action="" className='flex flex-col'>
-                    <input type="text" name='fullname' placeholder="Full Name" id='' className="input-box" autoComplete='off' />
-                    <input type="text" name='email' placeholder="Email" id='' className="input-box" autoComplete='off'/>
-                    <textarea type="text" name='message' placeholder="Message" id='' className="input-box" autoComplete='off' rows={3} />
 
-                    <button className='action-btn btn-scale-anim'>SUBMIT</button>
-                </form>
+        {/* Circles Start */}        
+        <div className="lg:ml-auto xl:w-[38rem]">
+          <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-4 -translate-x-1/2 scale-75 md:scale-100 rounded-full">
+            <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
+                <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
+                    <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
+                        <img src={css} width={48} height={48} alt="brainwave" />
+                    </div>
                 </div>
             </div>
+            <ul>
+                {collabApps.map((app, index) => (
+                    <li key={app.id} className={`absolute top-0 left-1/2 h-1/2 -ml-[1.6rem] origin-bottom`} style={{ transform: `rotate(${index * angle}deg)` }}>
+                        <div className="relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl" style={{ transform: `rotate(-${index * angle}deg)` }}>
+                            <img className="m-auto" width={app.width} height={app.height} src={app.icon} alt={app.title} />
+                        </div>
+                    </li>
+                ))}
+            </ul>
+          </div>
+        </div>
+        {/* Circles End */}
+      </div>
         </div>
     </section>
   )

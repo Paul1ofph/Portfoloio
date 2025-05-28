@@ -44,7 +44,15 @@ import DESIGN_IMG_19 from "../assets/images/designimage19.jpg"
 import DESIGN_IMG_20 from "../assets/images/designimage20.jpg"
 import DESIGN_IMG_21 from "../assets/images/designimage21.jpg"
 import DESIGN_IMG_22 from "../assets/images/designimage22.jpg"
-import DESIGN_IMG_23 from "../assets/images/designimage23.jpg"
+import DESIGN_IMG_23 from "../assets/images/react-removebg-preview.png"
+import react from "../assets/images/react-removebg-preview.png"
+import html from "../assets/images/html-removebg-preview.png"
+import css from "../assets/images/css-removebg-preview.png"
+import js from "../assets/images/Js-removebg-preview.png"
+import corel from "../assets/images/corel-removebg-preview.png"
+import vs from "../assets/images/visual-studio-code-removebg-preview.png"
+import git from "../assets/images/github.png"
+
 
 export const PAGES = [
     {
@@ -493,3 +501,62 @@ export const DESIGNPROJECTS = [
     },
 
 ]
+
+export const collabApps = [
+    {
+      id: "0",
+      title: "React",
+      icon: react,
+      width: 46,
+      height: 36,
+    },
+    {
+      id: "1",
+      title: "HTML",
+      icon: html,
+      width: 34,
+      height: 36,
+    },
+    {
+      id: "2",
+      title: "CSS",
+      icon: css,
+      width: 46,
+      height: 28,
+    },
+    {
+      id: "3",
+      title: "JavaScript",
+      icon: js,
+      width: 55,
+      height: 35,
+    },
+    // {
+    //   id: "4",
+    //   title: "API",
+    //   icon: api,
+    //   width: 34,
+    //   height: 34,
+    // },
+    {
+      id: "5",
+      title: "Github",
+      icon: git,
+      width: 34,
+      height: 34,
+    },
+    {
+      id: "6",
+      title: "CorelDraw",
+      icon: corel,
+      width: 46,
+      height: 34,
+    },
+    {
+      id: "7",
+      title: "VsCode",
+      icon: vs,
+      width: 38,
+      height: 32,
+    },
+  ];
