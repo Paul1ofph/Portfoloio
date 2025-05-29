@@ -20,18 +20,42 @@ import { Link } from 'react-router-dom'
 import { STATS } from '../utils/data'
 import StatInfoCard from '../Components/StatInfoCard'
 import Navbar from '../Components/Navbar'
-
+import BlurText from '../Components/animations/Blurtext'
+// import DecryptedText from '../Components/animations/DecryptedText'
 const Hero = () => {
+    const handleAnimationComplete = () => {
+        console.log('Animation completed!');
+      };
   return (<>
     <Navbar />
         <section id='hero' className='container mx-auto px-8'>
             <div className='flex flex-col lg:flex-row gap-14 items-center justify-between mt-[30px]'>
                 <div className="order-2 lg:order-1 text-center lg:text-left mt-5 lg:mt-0">
-                    <h3 className='text-xl lg:text-2xl font-medium text-black'>👋 Hi, I'm PaulofPh</h3>
-                    <h1 className='w-full text-pretty lg:w-[400px] text-4xl lg:text-5xl font-bold leading-[50px] lg:leading-[60px] mt-3 bg-gradient-primary bg-clip-text text-transparent'>Crafting Stunning Designs & Seamless Web Experiences</h1>
+                    <BlurText
+                    text="👋 Hi, I'm PaulofPh"
+                    delay={150}
+                    animateBy="words"
+                    direction="top"
+                    onAnimationComplete={handleAnimationComplete}
+                    className='text-xl lg:text-2xl font-medium text-black'
+                    />
+                    <BlurText
+                    text="Crafting Stunning Designs & Seamless Web Experiences"
+                    delay={150}
+                    animateBy="words"
+                    direction="top"
+                    onAnimationComplete={handleAnimationComplete}
+                    className='w-full text-pretty lg:w-[400px] text-4xl lg:text-5xl font-bold leading-[50px] lg:leading-[60px] mt-3 bg-gradient-primary bg-clip-text text-primary'
+                    />
 
+                    {/* DECRYPTED TEXT ANIMATION */}
+                    {/* <DecryptedText
+                    text="I'm a Front-End Developer & Graphics Designer specializing in React.js and CorelDraw. With a passion for creativity and technology, i design and develop visually engaging, user-friendly digital experiences that leave a lasting impact"
+                    className="w-full text-pretty lg:w-[500px] text-sm lg:text-base mt-4"
+                    animateOn="view"
+                    /> */}
                     <p className="w-full text-pretty lg:w-[500px] text-sm lg:text-base mt-4">
-                        I'm a Front-End Developer & Graphics Designer specializing in React.js and CorelDraw. With a passion for creativity and technology, i design and develop visually engaging, user-friendly digital experiences that leave a lasting impact
+                    I'm a Front-End Developer & Graphics Designer specializing in React.js and CorelDraw. With a passion for creativity and technology, i design and develop visually engaging, user-friendly digital experiences that leave a lasting impact
                     </p>
 
                     <div className="flex flex-wrap justify-center lg:justify-start gap-4 md:gap-8 mt-6">
