@@ -273,22 +273,31 @@ export const PROJECTS = [
 
     {
         id: 2,
-        title:
-            "Group Hackathon landing page Project for MRsoft furniture store | HTML, CSS, JAVASCRIPT",
-            image: PROJECT_IMG_2,
-            tags:["HTML", "CSS", "JAVASCRIPT"],
-            Link:"https://hackathon-t5nl.onrender.com",
+          title:
+            "API PROJECTS  | REACT JS, CSS, API'S",
+            // image: PROJECT_IMG_7,
+            tags:["React", "CSS", "HARRY POTTER API", "NEWS API"],
+            Link:"https://github.com/Paul1ofph/ChurchLocator",
     },
     {
         id: 3,
-        title:
-            "Landing Page for a WristWatch Brand | HTML, CSS, JAVASCRIPT",
-            image: PROJECT_IMG_3,
-            tags:["HTML", "CSS", "JAVASCRIPT"],
-            Link:"https://zircon-accesories.onrender.com",
+         title:
+            "Bento Box Design Layout | REACT JS, CSS,",
+            // image: PROJECT_IMG_8,
+            tags:["REACT", "CSS",],
+            Link:"https://github.com/Paul1ofph/betobox",
     },
+
     {
         id: 4,
+        title:
+            "Atech Books | REACT JS, CSS",
+            image: PROJECT_IMG_5,
+            tags:["REACT", "CSS"],
+            Link:"https://reactproject-b07j.onrender.com",
+    },
+    {
+        id: 5,
         title:
             "Group Hackathon Budget Calculator Project | HTML, CSS, JAVASCRIPT",
             image: PROJECT_IMG_4,
@@ -296,21 +305,30 @@ export const PROJECTS = [
             Link:"https://budget-calculator-azaa.onrender.com",
     },
     {
-        id: 5,
-        title:
-            "Atech Books | REACT JS, CSS",
-            image: PROJECT_IMG_5,
-            tags:["REACT", "CSS"],
-            Link:"https://reactproject-b07j.onrender.com",
-    },
-
-    {
         id: 6,
         title:
             "Atech Image | HTML, CSS, JAVASCRIPT",
             image: PROJECT_IMG_6,
             tags:["HTML", "CSS", "JAVASCRIPT"],
             Link:"https://reactproject-b07j.onrender.com",
+    },
+
+    {
+        id: 7,
+        title:
+            "Group Hackathon landing page Project for MRsoft furniture store | HTML, CSS, JAVASCRIPT",
+            image: PROJECT_IMG_2,
+            tags:["HTML", "CSS", "JAVASCRIPT"],
+            Link:"https://hackathon-t5nl.onrender.com",
+    },
+
+    {
+        id: 8,
+        title:
+            "Landing Page for a WristWatch Brand | HTML, CSS, JAVASCRIPT",
+            image: PROJECT_IMG_3,
+            tags:["HTML", "CSS", "JAVASCRIPT"],
+            Link:"https://zircon-accesories.onrender.com",
     },
 
 ]
