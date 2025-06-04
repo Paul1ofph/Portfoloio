@@ -22,6 +22,8 @@ import PROJECT_IMG_3 from "../assets/images/image3.png"
 import PROJECT_IMG_4 from "../assets/images/image.png"
 import PROJECT_IMG_5 from "../assets/images/image5.png"
 import PROJECT_IMG_6 from "../assets/images/image4.png"
+import PROJECT_IMG_7 from "../assets/images/image6.jpg"
+import PROJECT_IMG_8 from "../assets/images/image7.jpg"
 import DESIGN_IMG_1 from "../assets/images/designimage1.jpg"
 import DESIGN_IMG_2 from "../assets/images/designimage2.jpg"
 import DESIGN_IMG_3 from "../assets/images/designimage3.jpg"
@@ -275,7 +277,7 @@ export const PROJECTS = [
         id: 2,
           title:
             "API PROJECTS  | REACT JS, CSS, API'S",
-            // image: PROJECT_IMG_7,
+            image: PROJECT_IMG_8,
             tags:["React", "CSS", "HARRY POTTER API", "NEWS API"],
             Link:"https://github.com/Paul1ofph/ChurchLocator",
     },
@@ -283,7 +285,7 @@ export const PROJECTS = [
         id: 3,
          title:
             "Bento Box Design Layout | REACT JS, CSS,",
-            // image: PROJECT_IMG_8,
+            image: PROJECT_IMG_7,
             tags:["REACT", "CSS",],
             Link:"https://github.com/Paul1ofph/betobox",
     },
