@@ -47,6 +47,7 @@ import DESIGN_IMG_20 from "../assets/images/designimage20.jpg"
 import DESIGN_IMG_21 from "../assets/images/designimage21.jpg"
 import DESIGN_IMG_22 from "../assets/images/designimage22.jpg"
 import DESIGN_IMG_23 from "../assets/images/designimage23.jpg"
+import DESIGN_IMG_24 from "../assets/images/Liveth.jpg"
 import react from "../assets/images/react-removebg-preview.png"
 import html from "../assets/images/html-removebg-preview.png"
 import css from "../assets/images/css-removebg-preview.png"
@@ -517,6 +518,13 @@ export const DESIGNPROJECTS = [
         title:
             "MIPO GADGETS BRAND Flyer Design | Corel Draw",
             image: DESIGN_IMG_23,
+            tags:["Corel Draw"],
+    },
+    {
+        id: 24,
+        title:
+            "Tricees Couture BRAND Flyer Design | Corel Draw",
+            image: DESIGN_IMG_24,
             tags:["Corel Draw"],
     },
 
