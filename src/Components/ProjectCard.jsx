@@ -9,7 +9,7 @@ const ProjectCard = ({imgUrl, title, tags, link}) => {
     // Display full title or truncated version
     
   return (
-    <div className='h-full  rounded-xl overflow-hidden shadow-md mx-2'>
+    <div className='h-full bg-white rounded-xl overflow-hidden shadow-md mx-2'>
         <a href={link} target='blank' className='cursor-pointer group'>                                
         <img src={imgUrl} alt={title} className='w-full h-72 md:h-80 object-contain' />
         </a>

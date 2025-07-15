@@ -37,7 +37,7 @@ const Hero = () => {
                     animateBy="words"
                     direction="top"
                     onAnimationComplete={handleAnimationComplete}
-                    className='text-xl lg:text-2xl font-medium'
+                    className='text-xl lg:text-2xl font-medium text-black'
                     />
                     <BlurText
                     text="Crafting Stunning Designs & Seamless Web Experiences"
@@ -65,7 +65,7 @@ const Hero = () => {
                 </div>
 
                 {/* <div className="hidden lg:block w-[300px] md:w-[370px] h-[350px] md:h-[428px] bg-orange-100/50 rounded-3xl relative order-1 lg:order-2"> */}
-                <div className="h-[350px] md:h-[428px]  border-x-2 border-t-2 border-primary rounded-3xl relative mx-auto order-2 lg:order-2">
+                <div className="h-[350px] md:h-[428px] bg-orange-100/50 rounded-3xl relative mx-auto order-2 lg:order-2">
 
                     <img src={Profile_Pic} alt="ProfilePic" className='profile-pic'/>
 

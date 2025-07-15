@@ -9,7 +9,7 @@ const Tabs = ({tabList, activeTab, onChange}) => {
     }
   return (
     <div className='flex items-center justify-center my-10'>
-        <div className="border-primary border rounded-full flex flex-wrap justify-center">
+        <div className="bg-[#fff6eb] rounded-full flex flex-wrap justify-center">
             {tabList.map((tab) => (
                 <motion.button
                     key={tab.id}
