@@ -22,7 +22,7 @@ const TechnicalProficiency = () => {
         setActiveTab(value)
     }
   return (
-    <section id='skills' className='bg-background mt-20'>
+    <section id='skills' className=' mt-20'>
         <div className="">
             <div className=" lg:w-[60vw] mx-auto">
                 <h4 className="section-title">

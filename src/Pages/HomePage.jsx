@@ -8,9 +8,10 @@ import Projects from "../Sections/Projects"
 import ThisSection from '../Sections/ThisSection'
 
 const HomePage = () => {
+  
   return (
     <>
-    <ThisSection />
+    {/* <ThisSection /> */}
     <Hero />
     <TechnicalProficiency />
     <About />

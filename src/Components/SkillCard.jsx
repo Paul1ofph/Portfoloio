@@ -9,9 +9,9 @@ const SkillCard = ({ icon, skillName, description, progress }) => {
   }
 
   return (
-    <div className='bg-white rounded-2xl border border-[#fce8d4] p-4'>
+    <div className=' rounded-2xl border border-primary p-4'>
       <div className="flex gap-3" onClick={toggleOpen}>
-        <div className='w-10 h-10 flex items-center justify-center bg-gradient-to-b from-[#fdeddd] to-[#ffffff] rounded-[7px]'>
+        <div className='w-10 h-10 flex items-center justify-center border border-primary rounded-[7px]'>
           {icon}
         </div>
 
@@ -21,14 +21,14 @@ const SkillCard = ({ icon, skillName, description, progress }) => {
             className="flex items-center justify-between cursor-pointer"
             
           >
-            <p className="text-[13px] text-black font-medium flex items-center gap-2">
+            <p className="text-[13px]  font-medium flex items-center gap-2">
               {skillName}
-              <span className={`transition-transform duration-300 text-primary ${isOpen ? 'rotate-180' : ''}`}>
+              <span className={`transition-transform duration-300  ${isOpen ? 'rotate-180' : ''}`}>
                 <FaChevronDown size={12} />
               </span>
             </p>
 
-            <p className="text-xs text-secondary font-medium">{progress}%</p>
+            <p className="text-xs font-medium">{progress}%</p>
           </div>
 
           {/* Progress bar */}
@@ -41,7 +41,7 @@ const SkillCard = ({ icon, skillName, description, progress }) => {
 
           {/* Toggleable description */}
           {isOpen && (
-            <p className="text-xs text-gray-600 text-justify leading-5 mt-3">
+            <p className="text-xs  text-justify leading-5 mt-3">
               {description}
             </p>
           )}
