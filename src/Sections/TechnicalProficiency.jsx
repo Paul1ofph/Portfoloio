@@ -26,11 +26,11 @@ const TechnicalProficiency = () => {
         <div className="">
             <div className=" lg:w-[60vw] mx-auto">
                 <h4 className="section-title">
-                    Technical Profieciency
+                    Technical Proficiency
                 </h4>
 
                 <p className="text-sm text-center mt-4 leading-6">
-                    A versatile developer with hands-on experience in modern technologies, tools, and frameworksdedicated to building efficient, scalable, and user-centric solutions.
+                    A versatile developer with hands-on experience in modern technologies, tools, and frameworks dedicated to building efficient, scalable, and user-centric solutions.
                 </p>
             </div>
             <Tabs 
