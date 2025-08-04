@@ -48,6 +48,8 @@ import DESIGN_IMG_21 from "../assets/images/designimage21.jpg"
 import DESIGN_IMG_22 from "../assets/images/designimage22.jpg"
 import DESIGN_IMG_23 from "../assets/images/designimage23.jpg"
 import DESIGN_IMG_24 from "../assets/images/Liveth.jpg"
+import DESIGN_IMG_25 from "../assets/images/ELLA_NAAS.jpg"
+import DESIGN_IMG_26 from "../assets/images/madam_Ify.jpg"
 import react from "../assets/images/react-removebg-preview.png"
 import html from "../assets/images/html-removebg-preview.png"
 import css from "../assets/images/css-removebg-preview.png"
@@ -356,24 +358,22 @@ export const DESIGNPROJECTS = [
     {
         id: 3,
         title:
-            "RAE'S OUTLET BRAND Flyer Design | Corel Draw",
-            image: DESIGN_IMG_3,
+            "Tricees Couture BRAND Flyer Design | Corel Draw",
+            image: DESIGN_IMG_24,
             tags:["Corel Draw"],
     },
-
     {
         id: 4,
         title:
-            "SAVERA AFRICA GENDER INITIATIVE (SAGI) Flyer Design | Corel Draw",
-            image: DESIGN_IMG_4,
+            "National Association of Adventist Students (NAAS) OGUN ZONE | Corel Draw",
+            image: DESIGN_IMG_25,
             tags:["Corel Draw"],
     },
-
     {
         id: 5,
         title:
-            "VALLEYVIEW SEVENTH-DAY ADVENTIST CHURCH Flyer Design | Corel Draw",
-            image: DESIGN_IMG_5,
+            "Code Explorer Summer Code Camp | Corel Draw",
+            image: DESIGN_IMG_26,
             tags:["Corel Draw"],
     },
 
@@ -523,8 +523,24 @@ export const DESIGNPROJECTS = [
     {
         id: 24,
         title:
-            "Tricees Couture BRAND Flyer Design | Corel Draw",
-            image: DESIGN_IMG_24,
+            "RAE'S OUTLET BRAND Flyer Design | Corel Draw",
+            image: DESIGN_IMG_3,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 25,
+        title:
+            "SAVERA AFRICA GENDER INITIATIVE (SAGI) Flyer Design | Corel Draw",
+            image: DESIGN_IMG_4,
+            tags:["Corel Draw"],
+    },
+
+    {
+        id: 26,
+        title:
+            "VALLEYVIEW SEVENTH-DAY ADVENTIST CHURCH Flyer Design | Corel Draw",
+            image: DESIGN_IMG_5,
             tags:["Corel Draw"],
     },
 
