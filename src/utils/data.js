@@ -377,21 +377,21 @@ export const DESIGNPROJECTS = [
             tags:["Corel Draw"],
     },
 
-    {
-        id: 6,
-        title:
-            "MIPO GADGETS BRAND Flyer Design | Corel Draw",
-            image: DESIGN_IMG_6,
-            tags:["Corel Draw"],
-    },
+    //{
+        //id: 6,
+        //title:
+          //  "MIPO GADGETS BRAND Flyer Design | Corel Draw",
+            //image: DESIGN_IMG_6,
+            //tags:["Corel Draw"],
+  //  },
 
-    {
-        id: 7,
-        title:
-            "MIPO GADGETS BRAND Flyer Design | Corel Draw",
-            image: DESIGN_IMG_7,
-            tags:["Corel Draw"],
-    },
+ //   {
+        //id: 7,
+        //title:
+         //   "MIPO GADGETS BRAND Flyer Design | Corel Draw",
+            //image: DESIGN_IMG_7,
+            //tags:["Corel Draw"],
+    //},
 
     {
         id: 8,
