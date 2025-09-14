@@ -279,9 +279,9 @@ export const PROJECTS = [
     {
         id: 5,
         title:
-            "ImageApp Project | REACT JS, CSS, NODE JS, EXPRESS JS, CLOUDINARY, REST API'S, MONGO DB",
+            "ImageApp Project | REACT JS, CSS, NODE JS, EXPRESS JS, CLOUDINARY, MONGO DB",
             image: PROJECT_IMG_9,
-            tags:["REACT JS", "CSS", "NODE JS", "EXPRESS JS", "CLOUDINARY","REST API'S", "MONGO DB"],
+            tags:["REACT JS", "CSS", "NODE JS", "EXPRESS JS", "CLOUDINARY", "MONGO DB"],
             Link:"https://imageapp-8ufl.onrender.com",
     },
 
