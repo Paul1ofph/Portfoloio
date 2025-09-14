@@ -24,6 +24,7 @@ import PROJECT_IMG_5 from "../assets/images/image5.png"
 import PROJECT_IMG_6 from "../assets/images/image4.png"
 import PROJECT_IMG_7 from "../assets/images/image6.jpg"
 import PROJECT_IMG_8 from "../assets/images/image7.jpg"
+import PROJECT_IMG_9 from "../assets/images/ImageApp.jpg"
 import DESIGN_IMG_1 from "../assets/images/designimage1.jpg"
 import DESIGN_IMG_2 from "../assets/images/designimage2.jpg"
 import DESIGN_IMG_3 from "../assets/images/designimage3.jpg"
@@ -275,6 +276,14 @@ export const PROJECTS = [
             tags:["REACT","CSS", "NODE.JS", "EXPRESS.JS", "MongoDB"],
             Link:"https://pollapp-ovb9.onrender.com"
     },
+    {
+        id: 5,
+        title:
+            "ImageApp Project | REACT JS, CSS, NODE JS, EXPRESS JS, CLOUDINARY, REST API'S, MONGO DB",
+            image: PROJECT_IMG_9,
+            tags:["REACT JS", "CSS", "NODE JS", "EXPRESS JS", "CLOUDINARY","REST API'S", "MONGO DB"],
+            Link:"https://imageapp-8ufl.onrender.com",
+    },
 
     {
         id: 2,
@@ -302,14 +311,6 @@ export const PROJECTS = [
             Link:"https://reactproject-b07j.onrender.com",
     },
     {
-        id: 5,
-        title:
-            "Group Hackathon Budget Calculator Project | HTML, CSS, JAVASCRIPT",
-            image: PROJECT_IMG_4,
-            tags:["HTML", "CSS", "JAVASCRIPT"],
-            Link:"https://budget-calculator-azaa.onrender.com",
-    },
-    {
         id: 6,
         title:
             "Atech Image | HTML, CSS, JAVASCRIPT",
@@ -334,6 +335,14 @@ export const PROJECTS = [
             image: PROJECT_IMG_3,
             tags:["HTML", "CSS", "JAVASCRIPT"],
             Link:"https://zircon-accesories.onrender.com",
+    },
+    {
+        id: 9,
+        title:
+            "Group Hackathon Budget Calculator Project | HTML, CSS, JAVASCRIPT",
+            image: PROJECT_IMG_4,
+            tags:["HTML", "CSS", "JAVASCRIPT"],
+            Link:"https://budget-calculator-azaa.onrender.com",
     },
 
 ]
