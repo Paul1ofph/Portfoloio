@@ -58,6 +58,9 @@ import js from "../assets/images/Js-removebg-preview.png"
 import corel from "../assets/images/corel-removebg-preview.png"
 import vs from "../assets/images/visual-studio-code-removebg-preview.png"
 import git from "../assets/images/github.png"
+import node from "../assets/images/nodejsDark.jpg"
+import express from "../assets/images/express.jpg"
+import mongo from "../assets/images/mongo.jpg"
 
 
 export const PAGES = [
@@ -92,7 +95,7 @@ export const STATS = [
 export const SKILL_TABS = [
     {id: "01", label: "All", value: "all"},
     {id: "02", label: "Frontend", value: "frontend"},
-    // {id: "03", label: "Backend", value: "backend"},
+    {id: "03", label: "Backend", value: "backend"},
     // {id: "03", label: "Design", value: "graphic-design"},
     {id: "04", label: "Tools", value: "tools"},
     {id: "05", label: "Skills", value: "soft-skills"},
@@ -139,35 +142,35 @@ export const SKILLS = [
         "Skilled in writing clean, moudles and sufficient JavaScript code to creat interactive web functions"
     },
 
-    // {
-    //     id: "05",
-    //     icon: FaNodeJs,
-    //     skill: "Node JS",
-    //     progress: 95,
-    //     type: "backend",
-    //     description:
-    //     "Skilled in building scalable and high-performance server-side applications using Node.js."
-    // },
+    {
+        id: "05",
+        icon: FaNodeJs,
+        skill: "Node JS",
+        progress: 75,
+        type: "backend",
+        description:
+        "Skilled in building scalable and high-performance server-side applications using Node.js."
+    },
 
-    // {
-    //     id: "06",
-    //     icon: SiExpress,
-    //     skill: "Express JS",
-    //     progress: 98,
-    //     type: "backend",
-    //     description:
-    //     "Proficient in developing RESTFUL APIs and middleware using Express.js."
-    // },
+    {
+        id: "06",
+        icon: SiExpress,
+        skill: "Express JS",
+        progress: 78,
+        type: "backend",
+        description:
+        "Proficient in developing RESTFUL APIs and middleware using Express.js."
+    },
 
-    // {
-    //     id: "07",
-    //     icon: SiMongodb,
-    //     skill: "MongoDB",
-    //     progress: 75,
-    //     type: "backend",
-    //     description:
-    //     "Experienced in designing and managing NoSql databases using MongoDB. Skilled in schema design."
-    // },
+    {
+        id: "07",
+        icon: SiMongodb,
+        skill: "MongoDB",
+        progress: 90,
+        type: "backend",
+        description:
+        "Experienced in designing and managing NoSql databases using MongoDB. Skilled in schema design."
+    },
 
     // {
     //     id: "08",
@@ -612,4 +615,25 @@ export const collabApps = [
       width: 38,
       height: 32,
     },
+    {
+        id: "8",
+        title: "Node js",
+        icon: node,
+        width: 38,
+        height: 32,
+      },
+      {
+        id: "9",
+        title: "Express js",
+        icon: express,
+        width: 38,
+        height: 32,
+      },
+      {
+        id: "10",
+        title: "Mongo DB",
+        icon: mongo,
+        width: 38,
+        height: 32,
+      },
   ];
