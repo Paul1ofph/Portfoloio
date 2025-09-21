@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Projects = () => {
 
   return (<>
-    <section id='projects' className='bg-background mt-14'>
+    <section id='projects' className='bg-background mt-14 block'>
         <DevelopmentCarousel />
         <DesignCarousel />
         <div className='flex justify-center items-center'>

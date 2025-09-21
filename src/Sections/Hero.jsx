@@ -24,7 +24,7 @@ import BlurText from '../Components/animations/Blurtext'
 // import DecryptedText from '../Components/animations/DecryptedText'
 const Hero = () => {
     const handleAnimationComplete = () => {
-        console.log('Animation completed!');
+        // console.log('Animation completed!');
       };
   return (<>
     <Navbar />

@@ -6,7 +6,7 @@ import Profile_Pic from "../assets/images/P2.png"
 import { ABOUT_ME } from '../utils/data'
 const About = () => {
   return (
-    <section id='about' className='container mx-auto px-8 py-16'>
+    <section id='about' className='container mx-auto px-8 py-16 block'>
         <h4 className="block lg:hidden w-[200px] section-title text-left mb-16">About Me</h4>
         <div className="flex flex-col lg:flex-row gap-16 items-start justify-between">
             <div className="  h-[350px] md:h-[428px] bg-orange-100/50 rounded-3xl mx-auto">

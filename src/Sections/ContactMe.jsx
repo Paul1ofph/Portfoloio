@@ -11,7 +11,7 @@ const ContactMe = () => {
     // circle calculation
     const angle = 360 / collabApps.length;
   return (
-    <section id='contact'>
+    <section id='contact' className='block'>
         <div className="container mx-auto p-10">
             <div className="w-full lg:w-[60vw] mx-auto">
                 <h4 className='section-title'>Contact Me</h4>
