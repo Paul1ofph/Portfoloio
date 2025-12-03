@@ -44,15 +44,17 @@ const Navbar = () => {
     <nav className="container mx-auto sticky top-5 z-10">
       <div
         ref={menuRef}
-        className="flex items-center justify-between rounded-full bg-white/25 border border-[#feebcc] backdrop-blur-[5px] m-5 p-3 md:p-0"
+        className="flex items-center justify-between rounded-full bg-white/25 border border-[#feebcc] backdrop-blur-[5px] m-5 p-3 md:p-0 "
       >
+        {/* Logo */}
+        {/* <img src="" alt="LOGO" className="h-7 ml-6 -mb-1" /> */}
         <HashLink to="/#" smooth>
           <div className="font-bold text-xl h-7 ml-6 -mb-1 cursor-pointer">
-            PaulofPh
+            PaulofPh{" "}
           </div>
         </HashLink>
 
-        {/* Hamburger for mobile */}
+        {/* Hamburger Icon (Visible only on small screens) */}
         <button
           className="block md:hidden text-[#333] mr-6 focus:outline-none"
           onClick={toggleMenu}
@@ -62,6 +64,7 @@ const Navbar = () => {
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
             {isOpen ? (
               <path
@@ -81,7 +84,7 @@ const Navbar = () => {
           </svg>
         </button>
 
-        {/* Nav Links */}
+        {/* Navigation Links */}
         <ul className={`${isOpen ? "flex" : "hidden"} menu-wrapper`}>
           {MENU_LINKS.map((item) => (
             <li key={item.id}>
@@ -92,7 +95,9 @@ const Navbar = () => {
                 offset={item.offset}
                 className="menu-item"
                 onClick={() => {
-                  if (window.innerWidth < 768) setIsOpen(false); // close menu on click
+                  if (window.innerWidth < 768) {
+                    setIsOpen(false); // close menu on mobile when link clicked
+                  }
                 }}
               >
                 {item.label}
@@ -101,11 +106,10 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <HashLink to="/#contact" smooth>
-          <button className="hidden md:block h-12 text-[15px] font-medium text-white bg-gradient-primary rounded-full px-9 hover:scale-105 transition-transform">
-            Contact
-          </button>
-        </HashLink>
+        {/* Hire Me Button */}
+        <button className="hidden md:block h-12 text-[15px] font-medium text-white bg-gradient-primary rounded-full px-9 transition-transform duration-300 ease-in-out hover:scale-105">
+          Hire Me
+        </button>
       </div>
     </nav>
   );
