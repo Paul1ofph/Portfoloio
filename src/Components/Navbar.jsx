@@ -107,11 +107,11 @@ const Navbar = () => {
         </ul>
 
         {/* Hire Me Button */}
-        <HashLink to="/#contact" smooth>
+        {/* <HashLink to="/#contact" smooth> */}
           <button className="hidden md:block h-12 text-[15px] font-medium text-white bg-gradient-primary rounded-full px-9 hover:scale-105 transition-transform">
             Hire Me
           </button>
-        </HashLink>
+        {/* </HashLink> */}
       </div>
     </nav>
   );
