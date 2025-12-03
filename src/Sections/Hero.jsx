@@ -27,6 +27,7 @@ const Hero = () => {
         // console.log('Animation completed!');
       };
   return (<>
+    <Navbar />
         <section id='hero' className='container mx-auto px-8'>
             <div className='flex flex-col lg:flex-row gap-14 items-center justify-between mt-[30px]'>
                 <div className="order-2 lg:order-1 text-center lg:text-left mt-5 lg:mt-0">
