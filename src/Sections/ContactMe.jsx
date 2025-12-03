@@ -26,7 +26,7 @@ const ContactMe = () => {
           <div>
             <a
               target="_blank"
-              href="mailto:pauladibe5@gmail.com?subject=Hello%20Chibueze&body=I%20would%20love%20to%20connect!"
+              href="mailto:pauladibe24@gmail.com?subject=Hello%20Chibueze&body=I%20would%20love%20to%20connect!"
             >
               <ContactInfoCard icon={<IoMdMail />} text={ABOUT_ME.email} />
             </a>
