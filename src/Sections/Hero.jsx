@@ -27,7 +27,6 @@ const Hero = () => {
         // console.log('Animation completed!');
       };
   return (<>
-    <Navbar />
         <section id='hero' className='container mx-auto px-8'>
             <div className='flex flex-col lg:flex-row gap-14 items-center justify-between mt-[30px]'>
                 <div className="order-2 lg:order-1 text-center lg:text-left mt-5 lg:mt-0">
@@ -55,7 +54,7 @@ const Hero = () => {
                     animateOn="view"
                     /> */}
                     <p className="w-full text-pretty lg:w-[500px] text-sm lg:text-base mt-4">
-                    I'm a Front-End Developer & Graphics Designer specializing in React.js and CorelDraw. With a passion for creativity and technology, i design and develop visually engaging, user-friendly digital experiences that leave a lasting impact
+                    I'm a Full Stack web Developer & Graphics Designer specializing in MERN STACK and CorelDraw. With a passion for creativity and technology, i design and develop visually engaging, user-friendly digital experiences that leave a lasting impact
                     </p>
 
                     <div className="flex flex-wrap justify-center lg:justify-start gap-4 md:gap-8 mt-6">

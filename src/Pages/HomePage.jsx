@@ -6,11 +6,13 @@ import ContactMe from "../Sections/ContactMe"
 import Footer from "../Sections/Footer"
 import Projects from "../Sections/Projects"
 import ThisSection from '../Sections/ThisSection'
+import Navbar from '../Components/Navbar'
 
 const HomePage = () => {
   return (
     <>
     <ThisSection />
+    <Navbar />
     <Hero />
     <TechnicalProficiency />
     <About />

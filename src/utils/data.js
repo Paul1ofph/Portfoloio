@@ -25,6 +25,7 @@ import PROJECT_IMG_6 from "../assets/images/image4.png"
 import PROJECT_IMG_7 from "../assets/images/image6.jpg"
 import PROJECT_IMG_8 from "../assets/images/image7.jpg"
 import PROJECT_IMG_9 from "../assets/images/imageApp.jpg"
+import PROJECT_IMG_10 from "../assets/images/spinel.jpg"
 import DESIGN_IMG_1 from "../assets/images/designimage1.jpg"
 import DESIGN_IMG_2 from "../assets/images/designimage2.jpg"
 import DESIGN_IMG_3 from "../assets/images/designimage3.jpg"
@@ -82,7 +83,7 @@ export const MENU_LINKS = [
     {id: "02", label: "Skills", offset: -80, to: "skills", path: "/#skills"},
     {id: "03", label: "About Me", offset: -80, to: "about", path: "/#about"},
     {id: "04", label: "Projects", offset: -80, to: "projects", path: "/#projects"},
-    {id: "05", label: "Contact", offset: -80, to: "contact", path: "/#contact"},
+    // {id: "05", label: "Contact", offset: -80, to: "contact", path: "/#contact"},
 ]
 
 export const STATS = [
@@ -243,7 +244,7 @@ export const SKILLS = [
 ]
 
 export const ABOUT_ME = {
-    content: `My Name is Chibueze Ndubuisi Adibe and i am a passionate Frontend Developer and Graphics Designer   with a deep understanding of how design and functionality come together to create engaging user experiences. My expertise in React.js allows me to develop dynamic, high-performance web applications, while my proficiency in CorelDraw helps me design visually stunning graphics that elevate brands.
+    content: `My Name is Chibueze Ndubuisi Adibe and i am a passionate Full Stack web Developer and Graphics Designer   with a deep understanding of how design and functionality come together to create engaging user experiences. My expertise in MERN STACK allows me to develop dynamic, high-performance web applications, while my proficiency in CorelDraw helps me design visually stunning graphics that elevate brands.
     
     \nWith a keen eye for detail and problem-solving mindset, i thrive on transforming ideas into interactive digital solutions that are not only aesthetically appealing but also highly functional. Whether it's building responsive websites, or designing captivating visuals, I am committed to delivering high-quality work that meets user needs and industry standards.`,
     socialLinks: [
@@ -279,6 +280,15 @@ export const PROJECTS = [
             tags:["REACT","CSS", "NODE.JS", "EXPRESS.JS", "MongoDB"],
             Link:"https://pollapp-ovb9.onrender.com"
     },
+    
+    {
+        id: 4,
+        title:
+            "Spinel Hub Ecommerce Store | MongoDB, Express, React JS, Node JS, CSS",
+            image: PROJECT_IMG_10,
+            tags:["REACT","CSS", "NODE.JS", "EXPRESS.JS", "MongoDB"],
+            Link:"https://spinelhub.onrender.com",
+    },
     {
         id: 5,
         title:
@@ -306,7 +316,7 @@ export const PROJECTS = [
     },
 
     {
-        id: 4,
+        id: 10,
         title:
             "Atech Books | REACT JS, CSS",
             image: PROJECT_IMG_5,
