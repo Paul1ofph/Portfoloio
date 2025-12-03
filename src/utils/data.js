@@ -83,7 +83,7 @@ export const MENU_LINKS = [
     {id: "02", label: "Skills", offset: -80, to: "skills", path: "/#skills"},
     {id: "03", label: "About Me", offset: -80, to: "about", path: "/#about"},
     {id: "04", label: "Projects", offset: -80, to: "projects", path: "/#projects"},
-    // {id: "05", label: "Contact", offset: -80, to: "contact", path: "/#contact"},
+    {id: "05", label: "Contact", offset: -80, to: "contact", path: "/#contact"},
 ]
 
 export const STATS = [
