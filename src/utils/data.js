@@ -81,8 +81,8 @@ export const PAGES = [
 export const MENU_LINKS = [
     {id: "01", label: "Home", offset: -100, to: "hero", path: "/#hero" },
     {id: "02", label: "Skills", offset: -80, to: "skills", path: "/#skills"},
-    {id: "03", label: "About Me", offset: -80, to: "about", path: "/#about"},
     {id: "04", label: "Projects", offset: -80, to: "projects", path: "/#projects"},
+    {id: "03", label: "About Me", offset: -80, to: "about", path: "/#about"},
     {id: "05", label: "Contact", offset: -80, to: "contact", path: "/#contact"},
 ]
 

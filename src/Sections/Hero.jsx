@@ -79,11 +79,11 @@ const Hero = () => {
 
                 </div>
             </div>
-            <div className="flex justify-center  gap-12 mt-16 md:mt-24 flex-wrap">
+            {/* <div className="flex justify-center  gap-12 mt-16 md:mt-24 flex-wrap">
                 {STATS.map((item) => (
                     <StatInfoCard key={item.id} count={item.count} label={item.label} add={item.add}/>
                 ))}
-            </div>
+            </div> */}
         </section>
         </>
   )
