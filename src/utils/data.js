@@ -31,7 +31,7 @@ import DESIGN_IMG_2 from "../assets/images/designimage2.jpg"
 import DESIGN_IMG_3 from "../assets/images/designimage3.jpg"
 import DESIGN_IMG_4 from "../assets/images/designimage4.jpg"
 import DESIGN_IMG_5 from "../assets/images/designimage5.jpg"
-import DESIGN_IMG_6 from "../assets/images/designimage6.jpg"
+import DESIGN_IMG_6 from "../assets/images/SavageGadgets1.jpg"
 import DESIGN_IMG_7 from "../assets/images/designimage7.jpg"
 import DESIGN_IMG_8 from "../assets/images/designimage8.jpg"
 import DESIGN_IMG_9 from "../assets/images/designimage9.jpg"
@@ -399,13 +399,13 @@ export const DESIGNPROJECTS = [
             tags:["Corel Draw"],
     },
 
-    //{
-        //id: 6,
-        //title:
-          //  "MIPO GADGETS BRAND Flyer Design | Corel Draw",
-            //image: DESIGN_IMG_6,
-            //tags:["Corel Draw"],
-  //  },
+    {
+        id: 6,
+        title:
+           "Ishaku GADGETS BRAND Flyer Design | Corel Draw",
+            image: DESIGN_IMG_6,
+            tags:["Corel Draw"],
+   },
 
  //   {
         //id: 7,
