@@ -17,7 +17,7 @@ import {
 import { FaGitAlt, FaTwitter, FaDribbble } from "react-icons/fa"
 import {MdGroup} from "react-icons/md"
 import PROJECT_IMG_1 from "../assets/images/image1.png"
-import PROJECT_IMG_2 from "../assets/images/image2.png"
+import PROJECT_IMG_2 from "../assets/images/studdiBuddii.jpg"
 import PROJECT_IMG_3 from "../assets/images/image3.png"
 import PROJECT_IMG_4 from "../assets/images/image.png"
 import PROJECT_IMG_5 from "../assets/images/image5.png"
@@ -273,9 +273,17 @@ export const ABOUT_ME = {
 
 export const PROJECTS = [
     {
+        id: 2,
+        title:
+            "STUDIBUDDII | an ai study partner with community features and real time notifications",
+            image: PROJECT_IMG_2,
+            tags:["REACT","CSS", "NODE.JS", "EXPRESS.JS", "MongoDB", "Socket.io"],
+            Link:"https://studibuddii.onrender.com"
+    },
+    {
         id: 1,
         title:
-            "Undergraduate Project Full Stack Anonymous Poll App | MongoDB, Express, React JS, Node JS, CSS",
+            "Anonymous Poll App | an online room based polling system where users can vote anonymously hereby reducing rate of cyberbullying and voters apathy",
             image: PROJECT_IMG_1,
             tags:["REACT","CSS", "NODE.JS", "EXPRESS.JS", "MongoDB"],
             Link:"https://pollapp-ovb9.onrender.com"
@@ -284,9 +292,9 @@ export const PROJECTS = [
     {
         id: 4,
         title:
-            "Spinel Hub Ecommerce Store | MongoDB, Express, React JS, Node JS, CSS",
+            "Spinel Hub | Ecommerce Store for a personalized gift store in benin with a customer to admin chat System",
             image: PROJECT_IMG_10,
-            tags:["REACT","CSS", "NODE.JS", "EXPRESS.JS", "MongoDB"],
+            tags:["REACT","CSS", "NODE.JS", "EXPRESS.JS", "MongoDB", "Socket.io"],
             Link:"https://spinelhub.onrender.com",
     },
     {
@@ -298,65 +306,65 @@ export const PROJECTS = [
             Link:"https://imageapp-8ufl.onrender.com",
     },
 
-    {
-        id: 2,
-          title:
-            "API PROJECTS  | REACT JS, CSS, API'S",
-            image: PROJECT_IMG_8,
-            tags:["React", "CSS", "HARRY POTTER API", "NEWS API"],
-            Link:"https://github.com/Paul1ofph/ChurchLocator",
-    },
-    {
-        id: 3,
-         title:
-            "Bento Box Design Layout | REACT JS, CSS,",
-            image: PROJECT_IMG_7,
-            tags:["REACT", "CSS",],
-            Link:"https://github.com/Paul1ofph/betobox",
-    },
+    // {
+    //     id: 2,
+    //       title:
+    //         "API PROJECTS  | REACT JS, CSS, API'S",
+    //         image: PROJECT_IMG_8,
+    //         tags:["React", "CSS", "HARRY POTTER API", "NEWS API"],
+    //         Link:"https://github.com/Paul1ofph/ChurchLocator",
+    // },
+    // {
+    //     id: 3,
+    //      title:
+    //         "Bento Box Design Layout | REACT JS, CSS,",
+    //         image: PROJECT_IMG_7,
+    //         tags:["REACT", "CSS",],
+    //         Link:"https://github.com/Paul1ofph/betobox",
+    // },
 
-    {
-        id: 10,
-        title:
-            "Atech Books | REACT JS, CSS",
-            image: PROJECT_IMG_5,
-            tags:["REACT", "CSS"],
-            Link:"https://reactproject-b07j.onrender.com",
-    },
-    {
-        id: 6,
-        title:
-            "Atech Image | HTML, CSS, JAVASCRIPT",
-            image: PROJECT_IMG_6,
-            tags:["HTML", "CSS", "JAVASCRIPT"],
-            Link:"https://reactproject-b07j.onrender.com",
-    },
+    // {
+    //     id: 10,
+    //     title:
+    //         "Atech Books | REACT JS, CSS",
+    //         image: PROJECT_IMG_5,
+    //         tags:["REACT", "CSS"],
+    //         Link:"https://reactproject-b07j.onrender.com",
+    // },
+    // {
+    //     id: 6,
+    //     title:
+    //         "Atech Image | HTML, CSS, JAVASCRIPT",
+    //         image: PROJECT_IMG_6,
+    //         tags:["HTML", "CSS", "JAVASCRIPT"],
+    //         Link:"https://reactproject-b07j.onrender.com",
+    // },
 
-    {
-        id: 7,
-        title:
-            "Group Hackathon landing page Project for MRsoft furniture store | HTML, CSS, JAVASCRIPT",
-            image: PROJECT_IMG_2,
-            tags:["HTML", "CSS", "JAVASCRIPT"],
-            Link:"https://hackathon-t5nl.onrender.com",
-    },
+    // {
+    //     id: 7,
+    //     title:
+    //         "Group Hackathon landing page Project for MRsoft furniture store | HTML, CSS, JAVASCRIPT",
+    //         image: PROJECT_IMG_2,
+    //         tags:["HTML", "CSS", "JAVASCRIPT"],
+    //         Link:"https://hackathon-t5nl.onrender.com",
+    // },
 
-    {
-        id: 8,
-        title:
-            "Landing Page for a WristWatch Brand | HTML, CSS, JAVASCRIPT",
-            image: PROJECT_IMG_3,
-            tags:["HTML", "CSS", "JAVASCRIPT"],
-            Link:"https://zircon-accesories.onrender.com",
-    },
-    {
-        id: 9,
-        title:
-            "Group Hackathon Budget Calculator Project | HTML, CSS, JAVASCRIPT",
-            image: PROJECT_IMG_4,
-            tags:["HTML", "CSS", "JAVASCRIPT"],
-            Link:"https://budget-calculator-azaa.onrender.com",
-    },
+    // {
+    //     id: 8,
+    //     title:
+    //         "Landing Page for a WristWatch Brand | HTML, CSS, JAVASCRIPT",
+    //         image: PROJECT_IMG_3,
+    //         tags:["HTML", "CSS", "JAVASCRIPT"],
+    //         Link:"https://zircon-accesories.onrender.com",
+    // },
+    // {
+    //     id: 9,
+    //     title:
+    //         "Group Hackathon Budget Calculator Project | HTML, CSS, JAVASCRIPT",
+    //         image: PROJECT_IMG_4,
+    //         tags:["HTML", "CSS", "JAVASCRIPT"],
+    //         Link:"https://budget-calculator-azaa.onrender.com",
+    // },
 
 ]
 
