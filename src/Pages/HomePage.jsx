@@ -11,7 +11,7 @@ import Navbar from '../Components/Navbar'
 const HomePage = () => {
   return (
     <>
-    <ThisSection />
+    {/* <ThisSection /> */}
     {/* <Navbar /> */}
     <Hero />
     <TechnicalProficiency />

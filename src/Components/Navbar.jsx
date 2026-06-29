@@ -108,7 +108,7 @@ const Navbar = () => {
 
         {/* Hire Me Button */}
         {/* <HashLink to="/#contact" smooth> */}
-          <button className="hidden md:block h-12 text-[15px] font-medium text-white bg-gradient-primary rounded-full px-9 hover:scale-105 transition-transform">
+          <button className="hidden text-transparent md:block h-12 text-[15px] font-medium text-white bg-gradient-primary rounded-full px-9 hover:scale-105 transition-transform">
             Hire Me
           </button>
         {/* </HashLink> */}
