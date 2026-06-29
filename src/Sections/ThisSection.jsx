@@ -7,10 +7,12 @@ const ThisSection = () => {
         <div className="">
         <ScrollVelocity 
         texts={[
-            'SDA FIND A CHURCH APP COMING SOON, ',
+            'BRAND DESIGNER • FULL-STACK DEVELOPER • IT PROFESSIONAL •',
+            // 'STUDIBUDDII, AN AI BASED STUDY PARTNER AND CAMPUS CONNECT PLATFORM COMING SOON, ',
+            // 'SDA FIND A CHURCH APP COMING SOON, ',
             // 'ZINA MEDIA, BELLAURA, SAGI, SPINEL HUB,'
         ]}
-        velocity={100} 
+        velocity={-100} 
         className="custom-scroll-text text-white bg-primary"
         />
 
