@@ -275,10 +275,10 @@ export const PROJECTS = [
     {
         id: 2,
         title:
-            "STUDIBUDDII | an ai study partner with community features and real time notifications",
+            "PASSCITYAI | an ai study partner with community features and real time notifications",
             image: PROJECT_IMG_2,
             tags:["REACT","CSS", "NODE.JS", "EXPRESS.JS", "MongoDB", "Socket.io"],
-            Link:"https://studibuddii.onrender.com"
+            Link:"https://Passcityai.com"
     },
     {
         id: 1,
